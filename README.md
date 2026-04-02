@@ -30,7 +30,8 @@ MikroBUS host connector into a single compact PCB.
 | Programming | ICSP header (MCLR, PGD, PGC) |
 | I/O Headers | P1, P2 expansion headers + GPIO breakout |
 | Supply Voltage | VCC regulated to 3.3V via LDO |
-| PCB Layers | 2 |
+| PCB Layers | 4 |
+| USB Routing      | Differential pairs (D+/D−), 90Ω     |
 
 ## How It Works
 
@@ -65,4 +66,4 @@ Altium Designer · Soldering Station · ICSP Programmer
 32-bit MCU support circuit design · LDO power regulation · USB hardware 
 integration · CAN bus transceiver integration · Crystal oscillator layout · 
 MIKROE MikroBUS host design · Multi-peripheral I/O routing · 
-ICSP programming interface · Gerber/BOM/NC drill generation · DFM
+ICSP programming interface · Gerber/BOM/NC drill generation · 4-layer stackup design · USB 2.0 differential pair routing (90Ω controlled impedance) · DFM
